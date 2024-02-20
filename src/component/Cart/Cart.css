@@ -1,0 +1,11 @@
+.cart {
+  position: sticky;
+  top: 0;
+}
+
+.Order {
+  color: burlywood;
+  font-weight: 900;
+  border-bottom: 5px solid green;
+  padding-left: 50px;
+}

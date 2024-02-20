@@ -1,0 +1,30 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(55, 83, 221, 1) 17%,
+    rgba(214, 39, 67, 1) 55%,
+    rgba(95, 17, 58, 1) 80%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.header:hover {
+  background: #1c2b35;
+}
+.header a {
+  color: rgb(245, 247, 248);
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 35px;
+  font-weight: 500px;
+}
+.header a:hover {
+  color: greenyellow;
+}
